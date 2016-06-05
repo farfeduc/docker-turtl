@@ -1,0 +1,12 @@
+# A Dockerfile for https://turtl.it/
+
+It contains the rethinkdb database and runs with supervisor
+
+It runs on port 8181.
+
+It uses a forked version of the turtl API (to solve some issues).
+You can find it on in my github repositories.
+
+You have to mount 2 volumes : /data and /turtl/config
+
+
